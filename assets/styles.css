@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  background: rgb(115, 192, 255);
+  box-shadow: 15px 10px 12px 1px  rgb(157, 208, 250);;
+}
+#main-container{
+  outline: solid 2px rgb(34, 151, 247);
+  width: 500px;
+  height: 300px;
+  padding: 1em 2em;
+  border-radius: 8px;
+  font-family: calculator;
+}
+h1{
+  color: rgb(34, 151, 247);
+  font-size: 60px;
+}
+.operations{
+  width: 100%;
+  /* outline: solid 1px rgb(223, 52, 186); */
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+input[name ="operation"]{
+  width: 100%;
+  margin: 5px;
+  /* padding: .25em .5em; */
+  font-family: calculator;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 8px;
+  border-color: rgb(34, 151, 247);
+}
+
+#result{
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+select{
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px rgb(60, 162, 247);
+}
